@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PDC03_MODULE04",
+    "\\PDC03_MODULE04\\PDC03_MODULE04.Android"
   ],
-  "SelectedNode": "\\PDC03_MODULE04.sln",
+  "SelectedNode": "\\PDC03_MODULE04\\PDC03_MODULE04.Android\\MainActivity.cs",
   "PreviewInSolutionExplorer": false
 }
