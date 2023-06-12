@@ -61,6 +61,9 @@
     <Compile Include="activity01.xaml.cs">
       <DependentUpon>activity01.xaml</DependentUpon>
     </Compile>
+    <Compile Include="activity5.xaml.cs">
+      <DependentUpon>activity5.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -97,6 +100,11 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="activity01.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="activity5.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
