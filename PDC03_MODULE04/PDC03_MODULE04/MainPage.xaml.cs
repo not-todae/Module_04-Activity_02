@@ -14,5 +14,9 @@ namespace PDC03_MODULE04
         {
             InitializeComponent();
         }
+        private async void Openactivity5(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new activity5());
+        }
     }
 }
